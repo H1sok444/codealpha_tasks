@@ -1,6 +1,6 @@
 import scapy.all as scapy
 import argparse
-from scapy.layers import http
+from scapy.layers.http import HTTPRequest
 
 def get_interface():
     parser = argparse.ArgumentParser()
